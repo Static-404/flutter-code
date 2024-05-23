@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(150, 73, 73, 30),
+        backgroundColor: Color.fromARGB(149, 255, 255, 240),
         title: Text("Fortune Cookie"),
         centerTitle: true,
       ),
@@ -72,6 +72,12 @@ class _MyHomePageState extends State<MyHomePage> {
             //   "Your fortunne is:",
             //   style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold),
             // ),
+            Image.asset(
+              'assets/images/fortune_cookie.png',
+              width: 200,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
