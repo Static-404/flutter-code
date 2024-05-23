@@ -27,8 +27,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   MyHomePage({super.key});
 
-  String _currentFortune = "";
-
   // This widget is the home page of your application. It is stateful, meaning.
 
   @override
